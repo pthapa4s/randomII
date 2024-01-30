@@ -14,7 +14,7 @@ body{
       display:grid;
       grid-template-columns: auto auto auto; 
       display:flex;
-     /* margin-top:30vh;*/
+      margin-top:20vh;
     }
 
     .cakeSection{
@@ -103,19 +103,19 @@ body{
       left:62%;
     }
     
-    /*Cake
- .icing1{
+    /*Cake*/
+     .icing1{
       height: 10px;
-      width: 50px;
+      width: 40px;
       background-color:#ffebbb;  
       margin-left:60px;
     }
     .cake1{
-      height: 22px;
-      width: 50px;
+      height: 20px;
+      width: 40px;
       background-color:#ff9a3c;  
       margin-left:60px;
-    }*/
+    }
    
      
     .icing2{
@@ -125,7 +125,7 @@ body{
       margin-left:45px;
     }
     .cake2{
-      height: 30px;
+      height: 25px;
       width: 80px;
       background-color:#ff9a3c;  
       margin-left:45px;
