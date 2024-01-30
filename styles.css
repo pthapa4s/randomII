@@ -169,7 +169,7 @@ body{
       margin-bottom:2px;
      font-family: 'Dancing Script', cursive; 
       color:#170448;
-      font-size:15px;
+      font-size:10px;
       transform: scale(0.94);
       /* animation: scale 1s forwards cubic-bezier(0.5, 1, 0.89, 1); */
     }
