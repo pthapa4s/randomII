@@ -1,6 +1,7 @@
 *{
     background-color: #fdf8e1;
     overflow-x:hidden;
+    margin:0;
     }
     @import url(https://fonts.googleapis.com/css?family=Lato:300italic);
 body{
@@ -175,7 +176,7 @@ body{
     .message{
       opacity: 0;
       filter: blur(4px);
-    font-size:15px;
+      font-size:15px;
     }
 
     .message:nth-child(1) {
