@@ -28,7 +28,7 @@ body{
       position:absolute;
       width: 6.666666666666667px;
       height: 12px;
-      margin-left:100px;
+      margin-left:80px;
       margin-top:-15px;
     }
     .fire:nth-child(1) {
@@ -70,7 +70,7 @@ body{
       border-right: 6px solid transparent;
       border-bottom: 8px solid #dfebeb;
       position:relative;
-      left:60%;
+      left:62%;
     }
     
     .candle-mid1{
@@ -78,7 +78,7 @@ body{
       width:11px;
       background-color: #fd8a8a;
       position:relative;
-      left:60%;
+      left:62%;
     }
     
     .candle-mid2{
@@ -86,7 +86,7 @@ body{
       width:11px;
       background-color: #dfebeb;
       position:relative;
-      left:60%;
+      left:62%;
     }
     
     .candle-mid3{
@@ -94,7 +94,7 @@ body{
       width:11px;
       background-color: #fd8a8a;
       position:relative;
-      left:60%;
+      left:62%;
     }
     
     .candle-bottom{
@@ -102,32 +102,32 @@ body{
       width:11px;
       background-color: #dfebeb;
       position:relative;
-      left:60%;
+      left:62%;
     }
     
     /*Cake*/
     .icing1{
       height: 10px;
-      width: 80px;
+      width: 50px;
       background-color:#ffebbb;  
-      margin-left:65px;
+      margin-left:60px;
     }
     .cake1{
       height: 22px;
-      width: 80px;
+      width: 50px;
       background-color:#ff9a3c;  
-      margin-left:65px;
+      margin-left:60px;
     }
      
     .icing2{
       height: 10px;
-      width: 120px;
+      width: 80px;
       background-color:#ffebbb;  
       margin-left:45px;
     }
     .cake2{
       height: 30px;
-      width: 120px;
+      width: 80px;
       background-color:#ff9a3c;  
       margin-left:45px;
       border-bottom-right-radius: 10px;
@@ -170,7 +170,7 @@ body{
       margin-bottom:2px;
      font-family: 'Dancing Script', cursive; 
       color:#170448;
-      font-size:18px;
+      font-size:15px;
       transform: scale(0.94);
       /* animation: scale 1s forwards cubic-bezier(0.5, 1, 0.89, 1); */
     }
