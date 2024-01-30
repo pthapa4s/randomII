@@ -175,6 +175,7 @@ body{
     .message{
       opacity: 0;
       filter: blur(4px);
+    font-size:15px;
     }
 
     .message:nth-child(1) {
