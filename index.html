@@ -1,0 +1,115 @@
+<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+  </style>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="cakeSection">
+        <div class="fire"></div>
+        <div class="fire"></div>
+        <div class="fire"></div>
+        <div class="fire"></div>
+        <div class="fire"></div>
+  
+      
+      <div class="candle-top"></div>
+      <div class="candle-mid1"></div>
+      <div class="candle-mid2"></div>
+      <div class="candle-mid3"></div>
+      <div class="candle-bottom"></div>
+      
+      <div class="icing1"></div>
+      <div class="cake1"></div>
+      <div class="icing2"></div>
+      <div class="cake2"></div>
+      <div class="icing3"></div>
+      <div class="cake3"></div>
+
+    </div>
+    
+    <div class="birthdayNote">
+      <div class="waviy textSection">
+        <span >H</span>
+        <span style="--i:2">a</span>
+        <span style="--i:3">p</span>
+        <span style="--i:4">p</span>
+        <span style="--i:5">y</span>
+        <span style="--i:6"></span>
+        <span style="--i:7">B</span>
+        <span style="--i:8">i</span>
+        <span style="--i:9">r</span>
+        <span style="--i:10">t</span>
+        <span style="--i:11">h</span>
+        <span style="--i:12">d</span>
+        <span style="--i:13">a</span>
+        <span style="--i:14">y</span>
+        <span style="--i:15"></span>
+        <span style="--i:16">M</span>
+        <span style="--i:17">i</span>
+        <span style="--i:18">s</span>
+        <span style="--i:19">g</span>
+        <span style="--i:20">e</span>
+        <span style="--i:21"><i class="fa fa-soccer-ball-o"></i></span>
+       </div>
+      <div class ="note message"></div>
+
+      <p class="textSection">
+        <span class="message">Another</span>
+        <span class="message">year</span>
+        <span class="message">of</span>
+        <span class="message">being</span>
+        <span class="message">happier,</span>
+      </p>
+      <div class ="note message"></div>
+      <p class="textSection">
+        <span class="message">healthier,</span>
+        <span class="message">and</span>
+        <span class="message">wiser...</span>
+      </p>
+      <div class ="note message"></div>
+    </div>
+    
+  </div>
+  
+  <div class="bottomSection">
+    <div class="gif_container">
+        <p class="bottomText question">Do you like this card?</p>
+        <p class="bottomText warning">*click no for a surprise*</p>
+       <img src= "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdtZ2JiZDR0a3lvMWF4OG8yc3p6Ymdvd3g2d245amdveDhyYmx6eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpf9g3y/giphy.gif"
+            alt="Cute animated illustration"
+            width = "100"
+            height = "100"
+    </div>
+      
+      <div class="buttons">
+          <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
+          <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
+         <script>
+                    function nextPage() {
+                        window.location.href = "yes.html";
+                    }
+                    
+                    function moveButton() {
+                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+                        document.getElementById('noButton').style.left = `${x}px`;
+                        document.getElementById('noButton').style.top = `${y}px`;
+                    }
+        </script> 
+      </div>
+  </div>
+ 
+
+  
+
+</body>
+</html>
