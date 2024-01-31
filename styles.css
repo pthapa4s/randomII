@@ -1,313 +1,315 @@
 *{
-    background-color: #fdf8e1;
-    overflow-x:hidden;
-    margin:0;
-    }
-    @import url(https://fonts.googleapis.com/css?family=Lato:300italic);
-body{
   background-color: #fdf8e1;
+  overflow-x:hidden;
+  margin:0;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Lato:300italic);
+body{
+background-color: #fdf8e1;
 
 }
 
 /*Upper Container for cake and notes*/
-    .container{
-      display:grid;
-      grid-template-columns: auto auto auto; 
-      display:flex;
-      margin-top:20vh;
-    }
-
-    .cakeSection{
-      opacity:0.8;
-    }
-
-  /*flames*/
-    .fire {
-      border-radius: 100%;
-      box-shadow: 0 0 40px 10px #ffc04d;
-      /*position:absolute;*/
-      width: 6.666666666666667px;
-      height: 12px;
-    }
-    .fire:nth-child(1) {
-      animation: fire 2s infinite;
-    }
-    .fire:nth-child(2) {
-      animation: fire 1.5s infinite;
-    }
-    .fire:nth-child(3) {
-      animation: fire 1s infinite;
-    }
-    .fire:nth-child(4) {
-      animation: fire 0.5s infinite;
-    }
-    .fire:nth-child(5) {
-      animation: fire 0.2s infinite;
-    }
- 
-    @keyframes fire {
-      0% {
-        background:orange;
-        -webkit-transform: translateY(0) scale(1);
-      }
-      50% {
-        background: rgba(255, 50, 0, 0.1);
-        -webkit-transform: translateY(-20px) scale(0);
-      }
-      100% {
-        background: rgba(254, 248, 97, 0.5);
-        -webkit-transform: translateY(0) scale(1);
-      }
-    }
-
-    /*Candles*/
-    .candle-top{
-      width: 0;
-      height:0;
-      border-left: 6px solid transparent;
-      border-right: 6px solid transparent;
-      border-bottom: 8px solid #dfebeb;
-      position:relative;
-      left:62%;
-    }
-    
-    .candle-mid1{
-      height:3px;
-      width:11px;
-      background-color: #fd8a8a;
-      position:relative;
-      left:62%;
-    }
-    
-    .candle-mid2{
-      height:5px;
-      width:11px;
-      background-color: #dfebeb;
-      position:relative;
-      left:62%;
-    }
-    
-    .candle-mid3{
-      height:3px;
-      width:11px;
-      background-color: #fd8a8a;
-      position:relative;
-      left:62%;
-    }
-    
-    .candle-bottom{
-      height:15px;
-      width:11px;
-      background-color: #dfebeb;
-      position:relative;
-      left:62%;
-    }
-    
-    /*Cake*/
-     .icing1{
-      height: 8px;
-      width: 40px;
-      background-color:#ffebbb;  
-      margin-left:60px;
-    }
-    .cake1{
-      height: 15px;
-      width: 40px;
-      background-color:#ff9a3c;  
-      margin-left:60px;
-    }
-   
-     
-    .icing2{
-      height: 8px;
-      width: 80px;
-      background-color:#ffebbb;  
-      margin-left:45px;
-    }
-    .cake2{
-      height: 18px;
-      width: 80px;
-      background-color:#ff9a3c;  
-      margin-left:45px;
-      border-bottom-right-radius: 10px;
-      border-bottom-left-radius: 10px;
-    }
-
-    /* .icing3{
-      height: 15px;
-      width: 200px;
-      background-color:#ffebbb;  
-      margin-left:20px;
-    }
-    .cake3{
-      height: 35px;
-      width: 20s0px;
-      background-color:#ff9a3c;  
-      margin-left:20px;
-      border-bottom-right-radius: 10px;
-      border-bottom-left-radius: 10px;
-    } */
-
-  /*notes*/
-
-
-  .birthdayNote{
-    opacity:0;
-    position:relative;
-    background-color: transparent;
-    animation:fade-in 3s 1.5s forwards;
-  }
-
- 
-    .note{
-      height: 0.5px;
-      width: 300px;
-      background-color: #f9dc5c;
-    }
-    
-    .textSection{
-      margin-bottom:2px;
-     font-family: 'Dancing Script', cursive; 
-      color:#170448;
-      font-size:10px;
-      transform: scale(0.94);
-      /* animation: scale 1s forwards cubic-bezier(0.5, 1, 0.89, 1); */
-    }
-  
-    .message{
-      opacity: 0;
-      filter: blur(4px);
-      font-size:15px;
-    }
-
-    .message:nth-child(1) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    .message:nth-child(2) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    .message:nth-child(3) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    .message:nth-child(4) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    .message:nth-child(5) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    .message:nth-child(6) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    .message:nth-child(7) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    .message:nth-child(8) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    .message:nth-child(9) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    .message:nth-child(10) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    .message:nth-child(11) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    .message:nth-child(12) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    .message:nth-child(13) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    .message:nth-child(14) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    .message:nth-child(15) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    .message:nth-child(16) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    .message:nth-child(17) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    .message:nth-child(18) {
-      animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-    }
-    
-    @keyframes fade-in {
-      100% {
-        opacity: 1;
-        filter: blur(0);
-      }
-    }
-    
-    .waviy span {
-      position: relative;
-      display: inline-block;
-      font-size: 20px;
-      font-weight:bold;
-      color:#170448;
-      animation: flip 2s ;
-      animation-delay: calc(.2s * var(--i))
-    }
-  
-    @keyframes flip{
-      0%, 80%{
-        transform: rotateY(360deg);
-      }
-    }
-    
-  /*Bottom Section with GIF*/
-
-  .bottomSection{
+  .container{
+    display:grid;
+    grid-template-columns: auto auto auto; 
     display:flex;
-    float:right;
-    margin-top:200px;
+    margin-top:20vh;
+  }
 
+  .cakeSection{
+    opacity:0.8;
   }
-  .question{
-    font-size: 18px;
+
+/*flames*/
+  .fire {
+    border-radius: 100%;
+    box-shadow: 0 0 40px 10px #ffc04d;
+    position:absolute;
+    width: 6.666666666666667px;
+    height: 10px;
+    left: 13%;
   }
-  .warning{
+  .fire:nth-child(1) {
+    animation: fire 2s infinite;
+  }
+  .fire:nth-child(2) {
+    animation: fire 1.5s infinite;
+  }
+  .fire:nth-child(3) {
+    animation: fire 1s infinite;
+  }
+  .fire:nth-child(4) {
+    animation: fire 0.5s infinite;
+  }
+  .fire:nth-child(5) {
+    animation: fire 0.2s infinite;
+  }
+
+  @keyframes fire {
+    0% {
+      background:orange;
+      -webkit-transform: translateY(0) scale(1);
+    }
+    50% {
+      background: rgba(255, 50, 0, 0.1);
+      -webkit-transform: translateY(-20px) scale(0);
+    }
+    100% {
+      background: rgba(254, 248, 97, 0.5);
+      -webkit-transform: translateY(0) scale(1);
+    }
+  }
+
+  /*Candles*/
+  .candle-top{
+    width: 0;
+    height:0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 8px solid #dfebeb;
+    position:relative;
+    left:67%;
+    margin-top:10px;
+  }
+  
+  .candle-mid1{
+    height:3px;
+    width:8px;
+    background-color: #fd8a8a;
+    position:relative;
+    left:67%;
+  }
+  
+  .candle-mid2{
+    height:5px;
+    width:8px;
+    background-color: #dfebeb;
+    position:relative;
+    left:67%;
+  }
+  
+  .candle-mid3{
+    height:3px;
+    width:8px;
+    background-color: #fd8a8a;
+    position:relative;
+    left:67%;
+  }
+  
+  .candle-bottom{
+    height:10px;
+    width:8px;
+    background-color: #dfebeb;
+    position:relative;
+    left:67%;
+  }
+  
+  /*Cake*/
+   .icing1{
+    height: 8px;
+    width: 30px;
+    background-color:#ffebbb;  
+    margin-left:55px;
+  }
+  .cake1{
+    height: 15px;
+    width: 30px;
+    background-color:#ff9a3c;  
+    margin-left:55px;
+  }
+ 
+   
+   .icing2{
+    height: 8px;
+    width: 50px;
+    background-color:#ffebbb;  
+    margin-left:45px;
+  }
+  .cake2{
+    height: 18px;
+    width: 50px;
+    background-color:#ff9a3c;  
+    margin-left:45px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  } 
+
+  /* .icing3{
+    height: 15px;
+    width: 200px;
+    background-color:#ffebbb;  
+    margin-left:20px;
+  }
+  .cake3{
+    height: 35px;
+    width: 20s0px;
+    background-color:#ff9a3c;  
+    margin-left:20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  } */
+
+/*notes*/
+
+
+.birthdayNote{
+  opacity:0;
+  position:relative;
+  background-color: transparent;
+  animation:fade-in 3s 1.5s forwards;
+}
+
+
+  .note{
+    height: 0.5px;
+    width: 300px;
+    background-color: #f9dc5c;
+  }
+  
+  .textSection{
+    margin-bottom:2px;
+   font-family: 'Dancing Script', cursive; 
+    color:#170448;
+    font-size:10px;
+    transform: scale(0.94);
+    /* animation: scale 1s forwards cubic-bezier(0.5, 1, 0.89, 1); */
+  }
+
+  .message{
+    opacity: 0;
+    filter: blur(4px);
     font-size:15px;
-    display: flex;
-    justify-content: center;
   }
-    .btn {
-        background-color: #ffbc40;
-        color: white;
-        padding: 10px 20px;
-        text-align: center;
-        font-size: 13px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border: none;
-        border-radius: 12px;
-        transition: background-color 0.3s ease;
-    }
-    #noButton {
-        position: absolute;
-        transition: 0.5s;
-    }
-    .bottomText{
-      font-family: 'Dancing Script', cursive;
 
+  .message:nth-child(1) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .message:nth-child(2) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .message:nth-child(3) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .message:nth-child(4) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .message:nth-child(5) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .message:nth-child(6) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .message:nth-child(7) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .message:nth-child(8) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .message:nth-child(9) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .message:nth-child(10) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .message:nth-child(11) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .message:nth-child(12) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .message:nth-child(13) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .message:nth-child(14) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .message:nth-child(15) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .message:nth-child(16) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .message:nth-child(17) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .message:nth-child(18) {
+    animation: fade-in 2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
     }
+  }
+  
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    font-weight:bold;
+    color:#170448;
+    animation: flip 2s ;
+    animation-delay: calc(.2s * var(--i))
+  }
+
+  @keyframes flip{
+    0%, 80%{
+      transform: rotateY(360deg);
+    }
+  }
+  
+/*Bottom Section with GIF*/
+
+.bottomSection{
+  display:flex;
+  float:right;
+  margin-top:200px;
+
+}
+.question{
+  font-size: 18px;
+}
+.warning{
+  font-size:15px;
+  display: flex;
+  justify-content: center;
+}
+  .btn {
+      background-color: #ffbc40;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      font-size: 13px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border: none;
+      border-radius: 12px;
+      transition: background-color 0.3s ease;
+  }
+  #noButton {
+      position: absolute;
+      transition: 0.5s;
+  }
+  .bottomText{
+    font-family: 'Dancing Script', cursive;
+
+  }
