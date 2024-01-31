@@ -14,7 +14,7 @@ body{
       grid-template-columns: auto auto auto; */
       display:flex;
       justify-content: center;
-      margin-top:30vh;
+      margin-top:40vh;
     }
 
     .cakeSection{
@@ -30,7 +30,7 @@ body{
       position:absolute;
       width: 6.666666666666667px;
       height: 10px;
-      margin-left:50px;
+      left:20%;
     }
     .fire:nth-child(1) {
       animation: fire 2s infinite;
