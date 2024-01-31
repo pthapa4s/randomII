@@ -14,7 +14,7 @@ body{
       grid-template-columns: auto auto auto; */
       display:flex;
       justify-content: center;
-      margin-top:30vh;
+      margin-top:25vh;
       padding-top: 10px;
     }
 
