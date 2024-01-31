@@ -14,7 +14,7 @@ body{
       grid-template-columns: auto auto auto; */
       display:flex;
       justify-content: center;
-      margin-top:40vh;
+      margin-top:30vh;
     }
 
     .cakeSection{
