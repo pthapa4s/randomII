@@ -30,7 +30,7 @@ body{
       position:absolute;
       width: 6.666666666666667px;
       height: 10px;
-      left:20%;
+      margin-left:50px;
     }
     .fire:nth-child(1) {
       animation: fire 2s infinite;
