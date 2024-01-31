@@ -72,7 +72,7 @@ body{
     }
     
     .candle-mid1{
-      height:5px;
+      height:3px;
       width:11px;
       background-color: #fd8a8a;
       position:relative;
@@ -80,7 +80,7 @@ body{
     }
     
     .candle-mid2{
-      height:8px;
+      height:5px;
       width:11px;
       background-color: #dfebeb;
       position:relative;
@@ -88,7 +88,7 @@ body{
     }
     
     .candle-mid3{
-      height:5px;
+      height:3px;
       width:11px;
       background-color: #fd8a8a;
       position:relative;
@@ -96,7 +96,7 @@ body{
     }
     
     .candle-bottom{
-      height:20px;
+      height:15px;
       width:11px;
       background-color: #dfebeb;
       position:relative;
@@ -105,13 +105,13 @@ body{
     
     /*Cake*/
      .icing1{
-      height: 10px;
+      height: 8px;
       width: 40px;
       background-color:#ffebbb;  
       margin-left:60px;
     }
     .cake1{
-      height: 20px;
+      height: 15px;
       width: 40px;
       background-color:#ff9a3c;  
       margin-left:60px;
@@ -119,13 +119,13 @@ body{
    
      
     .icing2{
-      height: 10px;
+      height: 8px;
       width: 80px;
       background-color:#ffebbb;  
       margin-left:45px;
     }
     .cake2{
-      height: 25px;
+      height: 18px;
       width: 80px;
       background-color:#ff9a3c;  
       margin-left:45px;
