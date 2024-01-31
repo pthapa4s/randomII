@@ -14,7 +14,7 @@ body{
       grid-template-columns: auto auto auto; */
       display:flex;
       justify-content: center;
-      margin-top:30vh;
+      margin-top:30%;
     }
 
     .cakeSection{
@@ -27,7 +27,7 @@ body{
     .fire {
       border-radius: 100%;
       box-shadow: 0 0 40px 10px #ffc04d;
-      position:relative;
+      position:absolute;
       width: 6.666666666666667px;
       height: 10px;
       left:52%;
@@ -156,6 +156,7 @@ body{
     opacity:0;
     position:absolute;
     background-color: transparent;
+     margin-top:20px;
     animation:fade-in 3s 1.5s forwards;
   }
 
