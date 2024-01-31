@@ -157,7 +157,7 @@ body{
     opacity:0;
     position:absolute;
     background-color: transparent;
-     margin-top:20px;
+     margin-top:30px;
     animation:fade-in 3s 1.5s forwards;
   }
 
