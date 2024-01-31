@@ -29,7 +29,8 @@ body{
       box-shadow: 0 0 40px 10px #ffc04d;
       position:absolute;
       width: 6.666666666666667px;
-      height: 12px;
+      height: 10px;
+        margin-left:10px;
     }
     .fire:nth-child(1) {
       animation: fire 2s infinite;
