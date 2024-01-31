@@ -27,7 +27,7 @@ body{
     .fire {
       border-radius: 100%;
       box-shadow: 0 0 40px 10px #ffc04d;
-      position:absolute;
+      position:relative;
       width: 6.666666666666667px;
       height: 10px;
       left:52%;
